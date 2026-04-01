@@ -163,7 +163,7 @@ export default function App() {
             </div>
             <div style={{
               fontFamily: "'Fira Code', monospace", fontSize: 10,
-              color: "#5a6a65", letterSpacing: 1.5, marginTop: 2,
+              color: "#8a9f95", letterSpacing: 1.5, marginTop: 2,
               textTransform: "uppercase",
             }}>
               Rituals & resources for the solitary witch
@@ -171,7 +171,7 @@ export default function App() {
           </div>
           <div style={{
             fontFamily: "'Fira Code', monospace", fontSize: 10,
-            color: "#eeeeee", display: "flex", alignItems: "center", gap: 6,
+            color: "#7a9a90", display: "flex", alignItems: "center", gap: 6,
           }}>
             <span style={{
               width: 6, height: 6, borderRadius: "50%",
@@ -187,7 +187,7 @@ export default function App() {
         <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 28px" }}>
           <div style={{ textAlign: "center", padding: "72px 0 48px" }}>
             <div style={{
-              fontSize: 11, color: "#eeeeee", letterSpacing: 8,
+              fontSize: 11, color: "#7a9a90", letterSpacing: 8,
               fontFamily: "'Cinzel', serif", marginBottom: 28,
             }}>
               ── ✦ ──
@@ -211,7 +211,7 @@ export default function App() {
             }} />
 
             <p style={{
-              color: "#6a7a72", maxWidth: 480, margin: "0 auto",
+              color: "#9fb8ad", maxWidth: 480, margin: "0 auto",
               fontSize: 18, lineHeight: 1.9,
               fontStyle: "italic", fontWeight: 300,
             }}>
@@ -222,7 +222,7 @@ export default function App() {
 
             <p style={{
               fontFamily: "'Fira Code', monospace",
-              fontSize: 11, color: "#eeeeee", marginTop: 24,
+              fontSize: 11, color: "#7a9a90", marginTop: 24,
               letterSpacing: 0.5,
             }}>
               Downloadable PDF guides · Instant delivery to your inbox
@@ -299,7 +299,7 @@ export default function App() {
                         }}>{spell.tier}</span>
                         <span style={{
                           fontFamily: "'Fira Code', monospace", fontSize: 9,
-                          color: "#eeeeee", letterSpacing: 0.5,
+                          color: "#7a9a90", letterSpacing: 0.5,
                         }}>{spell.pages}</span>
                       </div>
                       <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -325,7 +325,7 @@ export default function App() {
                     }}>{spell.name}</h3>
                     {/* Description */}
                     <p style={{
-                      fontSize: 15, color: "#eeeeee",
+                      fontSize: 15, color: "#92ada2",
                       margin: "0 0 24px", lineHeight: 1.8,
                       fontStyle: "italic", fontWeight: 300,
                       maxWidth: isFeatured ? 600 : "none",
@@ -344,7 +344,7 @@ export default function App() {
                         {isFeatured && (
                           <span style={{
                             fontFamily: "'Fira Code', monospace", fontSize: 11,
-                            color: "#eeeeee", textDecoration: "line-through",
+                            color: "#7a9a90", textDecoration: "line-through",
                           }}>$23.97</span>
                         )}
                       </div>
@@ -390,7 +390,7 @@ export default function App() {
           </div>
 
           {filtered.length === 0 && (
-            <div style={{ textAlign: "center", padding: "64px 0", color: "#eeeeee" }}>
+            <div style={{ textAlign: "center", padding: "64px 0", color: "#7a9a90" }}>
               <p style={{ fontSize: 18, fontWeight: 300, fontStyle: "italic" }}>
               No guides in this category yet. More pages are being transcribed...
               </p>
@@ -404,7 +404,7 @@ export default function App() {
           }}>
             <div style={{
               fontFamily: "'Cinzel', serif", fontSize: 11,
-              color: "#eeeeee", letterSpacing: 4, textTransform: "uppercase",
+              color: "#7a9a90", letterSpacing: 4, textTransform: "uppercase",
               marginBottom: 12, textAlign: "center",
             }}>── Your Tools ──</div>
             <p style={{
@@ -413,7 +413,7 @@ export default function App() {
               letterSpacing: 1,
             }}>What You Actually Need to Begin</p>
             <p style={{
-              fontSize: 15, color: "#eeeeee", textAlign: "center",
+              fontSize: 15, color: "#92ada2", textAlign: "center",
               fontStyle: "italic", fontWeight: 300, lineHeight: 1.8,
               maxWidth: 520, margin: "0 auto 28px",
             }}>
@@ -449,14 +449,14 @@ export default function App() {
                   </div>
                   <p style={{
                     fontFamily: "'Fira Code', monospace", fontSize: 10.5,
-                    color: "#4a5a52", margin: 0, lineHeight: 1.7,
+                    color: "#85a095", margin: 0, lineHeight: 1.7,
                   }}>{t.note}</p>
                 </div>
               ))}
             </div>
             <p style={{
               fontFamily: "'Fira Code', monospace", fontSize: 10,
-              color: "#eeeeee", textAlign: "center", marginTop: 16,
+              color: "#7a9a90", textAlign: "center", marginTop: 16,
               lineHeight: 1.7,
             }}>
               As you deepen your practice, you may be drawn to collect specific tools —
@@ -471,11 +471,11 @@ export default function App() {
           }}>
             <div style={{
               fontFamily: "'Cinzel', serif", fontSize: 11,
-              color: "#eeeeee", letterSpacing: 4, textTransform: "uppercase",
+              color: "#7a9a90", letterSpacing: 4, textTransform: "uppercase",
               marginBottom: 12, textAlign: "center",
             }}>── For the Solitary Witch ──</div>
             <p style={{
-              fontSize: 16, color: "#eeeeee", textAlign: "center",
+              fontSize: 16, color: "#92ada2", textAlign: "center",
               fontStyle: "italic", fontWeight: 300, lineHeight: 2,
               maxWidth: 520, margin: "0 auto",
             }}>
@@ -495,7 +495,7 @@ export default function App() {
           }}>
             <div style={{
               fontFamily: "'Cinzel', serif", fontSize: 11,
-              color: "#eeeeee", letterSpacing: 4, textTransform: "uppercase",
+              color: "#7a9a90", letterSpacing: 4, textTransform: "uppercase",
               marginBottom: 28, textAlign: "center",
             }}>── The Path ──</div>
             <div style={{
@@ -511,7 +511,7 @@ export default function App() {
                 <div key={s.n} style={{ textAlign: "center" }}>
                   <span style={{
                     fontFamily: "'Cinzel', serif", fontSize: 28,
-                    color: "#c9a54e22", fontWeight: 600,
+                    color: "#c9a54e", fontWeight: 600,
                     display: "block", marginBottom: 12,
                   }}>{s.n}</span>
                   <h4 style={{
@@ -520,7 +520,7 @@ export default function App() {
                     color: "#8a8278", letterSpacing: 2, textTransform: "uppercase",
                   }}>{s.title}</h4>
                   <p style={{
-                    fontSize: 14, color: "#4a5a52",
+                    fontSize: 14, color: "#85a095",
                     margin: 0, lineHeight: 1.8,
                     fontStyle: "italic", fontWeight: 300,
                   }}>{s.desc}</p>
@@ -533,7 +533,7 @@ export default function App() {
           <div style={{ margin: "0 0 64px", border: "1px solid #1a2428" }}>
             <div style={{
               fontFamily: "'Cinzel', serif", fontSize: 11,
-              color: "#eeeeee", letterSpacing: 4, textTransform: "uppercase",
+              color: "#7a9a90", letterSpacing: 4, textTransform: "uppercase",
               padding: "20px 28px", borderBottom: "1px solid #1a2428",
               textAlign: "center",
             }}>Common Questions</div>
@@ -555,7 +555,7 @@ export default function App() {
                 }}>{item.q}</h4>
                 <p style={{
                   fontFamily: "'Fira Code', monospace", fontSize: 12,
-                  color: "#eeeeee", margin: 0, lineHeight: 1.8,
+                  color: "#7a9a90", margin: 0, lineHeight: 1.8,
                 }}>{item.a}</p>
               </div>
             ))}
@@ -574,7 +574,7 @@ export default function App() {
           }}>The Hollow Library</div>
           <div style={{
             fontFamily: "'Fira Code', monospace", fontSize: 10,
-            color: "#2a3a35",
+            color: "#6a8a80",
           }}>© 2026 Clydie Cronje · Secure payments by Payhip</div>
         </footer>
       </div>
