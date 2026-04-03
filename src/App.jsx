@@ -578,7 +578,7 @@ export default function App() {
         }}>
           <div style={{
             fontFamily: "'Cinzel', serif", fontSize: 14,
-            color: "#c9a54e33", letterSpacing: 3, textTransform: "uppercase",
+            color: "#c9a54e", letterSpacing: 3, textTransform: "uppercase",
             marginBottom: 8,
           }}>The Hollow Library</div>
           <div style={{
