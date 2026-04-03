@@ -107,24 +107,23 @@ export default function App() {
       minHeight: "100vh",
       background: "#080e10",
       color: "#c8c2b4",
+      backgroundImage: "url('/hero-bg.jpg')",
+      backgroundSize: "100% auto",
+      backgroundPosition: "top center",
+      backgroundRepeat: "no-repeat",
+      backgroundColor: "#080e10",
       fontFamily: "'Cormorant Garamond', Georgia, serif",
       position: "relative",
       overflow: "hidden",
     }}>
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Cinzel:wght@400;500;600;700&family=Fira+Code:wght@300;400&display=swap" rel="stylesheet" />
 
-      {/* Atmospheric background — castle & sea */}
+      {/* Dark gradient over background image */}
       <div style={{
-        position: "fixed", inset: 0, zIndex: 0, pointerEvents: "none",
-        backgroundImage: "url('/hero-bg.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "top center",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-      }} />
-      <div style={{
-        position: "fixed", inset: 0, zIndex: 0, pointerEvents: "none",
-        background: "linear-gradient(180deg, #080e10aa 0%, #080e10cc 35%, #080e10dd 60%, #080e10ee 100%)",
+        position: "absolute", top: 0, left: 0, right: 0,
+        height: 2400,
+        zIndex: 0, pointerEvents: "none",
+        background: "linear-gradient(180deg, #080e1022 0%, #080e1044 15%, #080e1088 40%, #080e10bb 60%, #080e10dd 75%, #080e10f5 90%, #080e10 100%)",
       }} />
 
       {/* (texture removed) */}
