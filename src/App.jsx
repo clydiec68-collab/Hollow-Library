@@ -184,7 +184,18 @@ export default function App() {
         </header>
 
         {/* Hero */}
-        <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 28px" }}>
+        <div style={{
+          backgroundImage: "url('/hero-bg.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          position: "relative",
+        }}>
+          <div style={{
+            position: "absolute", top: 0, left: 0, right: 0, bottom: 0,
+            background: "linear-gradient(180deg, #080e10ee 0%, #080e10cc 40%, #080e10dd 70%, #080e10ff 100%)",
+          }} />
+          <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 28px", position: "relative", zIndex: 1 }}>
           <div style={{ textAlign: "center", padding: "72px 0 48px" }}>
             <div style={{
               fontSize: 11, color: "#7a9a90", letterSpacing: 8,
@@ -228,7 +239,10 @@ export default function App() {
               Downloadable PDF guides · Instant delivery to your inbox
             </p>
           </div>
+          </div>
+        </div>
 
+        <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 28px" }}>
           {/* Tier Filters */}
           <div style={{
             display: "flex", gap: 6, flexWrap: "wrap",
