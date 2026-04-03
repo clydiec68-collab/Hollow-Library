@@ -113,15 +113,18 @@ export default function App() {
     }}>
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Cinzel:wght@400;500;600;700&family=Fira+Code:wght@300;400&display=swap" rel="stylesheet" />
 
-      {/* Atmospheric background */}
+      {/* Atmospheric background — castle & sea */}
       <div style={{
         position: "fixed", inset: 0, zIndex: 0, pointerEvents: "none",
-        background: `
-          radial-gradient(ellipse 80% 50% at 50% 0%, #12282e44 0%, transparent 60%),
-          radial-gradient(ellipse 60% 40% at 20% 80%, #1a150e22 0%, transparent 50%),
-          radial-gradient(ellipse 40% 30% at 80% 60%, #12282e18 0%, transparent 50%),
-          linear-gradient(180deg, #080e10 0%, #0a1518 30%, #0d1215 70%, #080e10 100%)
-        `,
+        backgroundImage: "url('/hero-bg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "top center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }} />
+      <div style={{
+        position: "fixed", inset: 0, zIndex: 0, pointerEvents: "none",
+        background: "linear-gradient(180deg, #080e10aa 0%, #080e10cc 35%, #080e10dd 60%, #080e10ee 100%)",
       }} />
 
       {/* Subtle cross texture */}
@@ -185,15 +188,11 @@ export default function App() {
 
         {/* Hero */}
         <div style={{
-          backgroundImage: "url('/hero-bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
           position: "relative",
         }}>
           <div style={{
             position: "absolute", top: 0, left: 0, right: 0, bottom: 0,
-            background: "linear-gradient(180deg, #080e10ee 0%, #080e10cc 40%, #080e10dd 70%, #080e10ff 100%)",
+            background: "linear-gradient(180deg, transparent 0%, #080e1022 50%, #080e1066 100%)",
           }} />
           <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 28px", position: "relative", zIndex: 1 }}>
           <div style={{ textAlign: "center", padding: "72px 0 48px" }}>
